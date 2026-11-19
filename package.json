@@ -1,0 +1,13 @@
+{
+  "name": "service-endpoint-drain-coordinator",
+  "version": "1.0.0",
+  "description": "服务端点排空协调器：只生成 ready -> draining -> terminated 的协调计划",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
